@@ -1,0 +1,65 @@
+# ⚖️ Modern BMI Calculator
+
+A lightweight, pastel-themed Graphical User Interface (GUI) application built with Python and Tkinter to calculate Body Mass Index (BMI). This tool helps users quickly determine their weight status based on standard medical formulas.
+
+## ✨ Features
+
+* **Simple Interface:** Clean, modern design with a pastel color palette (`#f6cee6` and `#fcf5ff`).
+* **Instant Calculation:** Computes BMI immediately upon clicking the button.
+* **Visual Feedback:**
+    * **Color Coding:** Changes text color based on the result (e.g., Green for Healthy, Red for Obesity).
+    * **Emojis:** Adds visual cues (✨, ⚠️, 🍰) to the status text.
+* **Input Validation:** Includes error handling to prevent crashes if non-numeric data or negative numbers are entered.
+
+## 🛠️ Prerequisites
+
+To run this application, you need:
+
+* **Python 3.x** installed on your system.
+* **Tkinter** (Included with standard Python installations).
+
+## 🚀 How to Run
+
+1.  **Download the script:**
+    Save the Python code as `bmi_calculator.py`.
+
+2.  **Open your terminal or command prompt.**
+
+3.  **Navigate to the directory** where you saved the file.
+
+4.  **Run the application:**
+    ```bash
+    python bmi_calculator.py
+    ```
+
+## 📏 How it Works
+
+The application uses the standard formula for calculating BMI:
+
+$$BMI = \frac{weight (kg)}{height (m)^2}$$
+
+### BMI Categories & Status Indicators
+
+Based on the calculated value, the app classifies the result into one of the following categories:
+
+| BMI Range | Status | Indicator Color |
+| :--- | :--- | :--- |
+| **< 18.5** | Underweight ⚠️ | <span style="color:#3498db">Blue (#3498db)</span> |
+| **18.5 – 24.9** | Healthy Weight ✨ | <span style="color:#2ecc71">Green (#2ecc71)</span> |
+| **25 – 29.9** | Overweight 🍩 | <span style="color:#f39c12">Orange (#f39c12)</span> |
+| **30+** | Obesity 🍰⚠️ | <span style="color:#e74c3c">Red (#e74c3c)</span> |
+
+## 📸 Usage Example
+
+1.  Enter your **Weight** in kilograms (e.g., `70`).
+2.  Enter your **Height** in meters (e.g., `1.75`).
+3.  Click **Calculate BMI**.
+4.  The app will display your numerical BMI and your health category.
+
+## 🤝 Contributing
+
+Feel free to fork this project and improve the UI or add features like Imperial unit conversion (lbs/inches)!
+
+## 📝 License
+
+This project is open-source and available for personal and educational use.
